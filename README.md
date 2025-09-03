@@ -10,6 +10,7 @@ A simple Discord bot for the Bisup community to automate tasks, engage users, an
 - Easy to extend with new commands
 
 ## Installation
+Fork the repo to your own github.
 
 1. Clone the repository:
    ```bash
