@@ -23,6 +23,8 @@ async def load_cogs():
 async def main():
     async with bot:
         await load_cogs()
+        print("DEBUG TOKEN:", config.DISCORD_TOKEN)
+
         await bot.start(config.DISCORD_TOKEN)
 
 # Run bot properly
